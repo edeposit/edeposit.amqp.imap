@@ -40,7 +40,7 @@ PASSWORD = "pass"
 
 
 #= user configuration reader ==================================================
-_ALLOWED = [str, int, float]
+_ALLOWED = [unicode, str, int, float]
 
 _SETTINGS_PATH = "/edeposit/imap.json"
 """
